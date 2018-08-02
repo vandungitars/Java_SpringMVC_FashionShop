@@ -1,0 +1,243 @@
+@charset "UTF-8";
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: Roboto;
+	font-size: 14px;
+}
+
+/*begin trangchu*/
+#header-trangchu{
+	background: url("../Image/image_background_Irene.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height : 800px;
+	font-size: 20px;
+}
+#none-navbar{
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.navbar-center{
+	margin-left: 10% !important;
+}
+.active > a{
+	color: #0167ff !important;
+	background: none !important;
+	font-weight: bold;
+}
+.open > a{
+	background-color: #0167ff !important;
+	background: none !important;
+	font-weight: bold;
+}
+.dropdown-menu{
+	background-color: black !important;
+}
+.dropdown-menu a{
+	color: white !important;
+}
+.event-header{
+	text-align: center;
+	margin-top: 216px;
+	color: red;
+}
+
+@media (max-width: 575px) { 
+	.navbar-center{
+		margin-left: 0 !important;
+	} 
+}
+@media (min-width: 576px) and (max-width: 767px) { 
+	.navbar-center{
+		margin-left: 0 !important;
+	} 
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-center{
+		margin-left: 8% !important;
+	} 
+}
+@media (min-width: 992px) and (max-width: 1199px) { }
+@media (max-width: 1200px) { }
+
+.icon-info{
+	width: 60px;
+	height: 50px;
+}
+#info{
+	text-align: center;
+	margin-top: 40px;
+}
+#info > span{
+	margin-top: 16px;
+}
+.sanpham{
+	text-align: center;
+	margin-top: 46px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#title-sanpham{
+	margin-top: 50px;
+	font-size: 40px; 
+	text-align: center;
+	font-weight: border; 
+}
+.ten-ao{
+	font-size: 15px;
+}
+#footer{
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 38px;
+}
+.title-footer{
+	font-size: 32px;
+}
+#footer textarea{
+	border: 0;
+	border-bottom-color: #D8D808;
+	width: 98%;
+}
+
+/*end trangchu*/
+/*--------------------------------------------------------------*/
+/*begin dangnhap*/
+#body-login{
+	background-color: #00909C;
+}
+#body-fex-login{
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+#container-login{
+	display: flex;
+	width: 820px;
+	height: 610px;
+	background-color: white;
+}
+#container-login-left{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 380px;
+	height: 610px;
+	background-image: url("../Image/image_background_Meliodas.png");
+}
+#header-top-left{
+	text-align: center;
+	color: red;
+}
+.header-login{
+	margin-top: 32px; 
+}
+#text-logo{
+	font-size: 48px;
+}
+#hint-text-logo{
+	font-size: 20px;
+	opacity: 0.7;
+}
+#header-bottom-left span{
+	color: black;
+	margin-left: 8px;
+}
+#image-icon{
+	width: 17px;
+	height: 17px;
+}
+#container-login-right{
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: : 0 24px
+}
+#header-top-right{
+	font-size: : 20px;
+	color: #B7B7B7;
+}
+.actived1{
+	color: #DA7C79;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.actived2{
+	font-size: 20px;
+	margin-left: 20px;
+}
+#container-center-login-right{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.material-textinput{
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 98%;
+}
+.material-button{
+	height: 38px;
+	border: 0;
+	background-color: #00909C;
+	width: 98%;
+}
+#container-social-login{
+	align-self: flex-end;
+}
+#form-signup{
+	display: none;
+}
+#form-login1{
+	display: none;
+}
+#logo-icon-facebook{
+	width: 60px;
+	height: 60px;
+}
+#logo-icon-google{
+	width: 47px !important;
+	height: 47px !important;
+}
+
+/*end dangnhap*/
+
+/*begin chitiet*/
+#header-chitietsanpham{
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.sanphamchitiet{
+	text-align: center;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.circle-giohang{
+	text-align:center;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	font-size: 11px;
+	border-radius: 40px;
+	background: red;
+	line-height: 22px;
+	margin-top: -25px;
+	margin-left: 40px;
+}
+/*end chitiet*/
